@@ -40,3 +40,24 @@ window.onscroll = () => {
     loginForm.classList.remove('active');
     navbar.classList.remove('active');
 }
+
+
+//product slider
+
+var swiper = new Swiper(".product-slider", {
+    loop: true,
+    grabCursor: true,
+    spaceBetween: 20,
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+});

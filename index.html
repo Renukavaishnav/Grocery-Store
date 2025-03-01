@@ -7,6 +7,9 @@
     <title>Grocery Store</title>
     <link rel="stylesheet" href="style.css">
 
+    <!-- Code for Swiper CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@11/swiper-bundle.min.css" />
+  
     <!-- Code for font awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
@@ -42,7 +45,7 @@
         <div class="shopping-cart">
             <div class="box">
                 <i class="fa fa-trash"></i>
-                <img src="cart-img-1.png" alt="">
+                <img src="cart-img-1.png">
                 <div class="content">
                     <h3>Watermelon</h3>
                     <span class="price">$5.99/-</span>
@@ -52,9 +55,9 @@
 
             <div class="box">
                 <i class="fa fa-trash"></i>
-                <img src="cart-img-2.png" alt="">
+                <img src="cart-img-2.png">
                 <div class="content">
-                    <h3>Onion</h3>  <!-- Fixed: 'Onine' → 'Onion' -->
+                    <h3>Onion</h3> <!-- Fixed: 'Onine' → 'Onion' -->
                     <span class="price">$4.99/-</span>
                     <span class="quantity">Qty: 2</span>
                 </div>
@@ -62,7 +65,7 @@
 
             <div class="box">
                 <i class="fa fa-trash"></i>
-                <img src="cart-img-3.png" alt="">
+                <img src="cart-img-3.png">
                 <div class="content">
                     <h3>Chicken</h3>
                     <span class="price">$7.99/-</span>
@@ -79,7 +82,7 @@
             <input type="email" placeholder="Enter your email" class="box">
             <input type="password" placeholder="Enter your password" class="box">
 
-            <p>Forgot Your Password? <a href="#">Click</a> Here</p>  <!-- Fixed: "Forget" → "Forgot" -->
+            <p>Forgot Your Password? <a href="#">Click</a> Here</p> <!-- Fixed: "Forget" → "Forgot" -->
             <p>Don't Have An Account? <a href="#">Create Now</a></p>
 
             <input type="submit" value="Login Now" class="btn">
@@ -87,11 +90,12 @@
     </header>
     <!-- Header Section -->
 
-    <!-- Banner Section -->  <!-- Fixed: 'Banneer' → 'Banner' -->
+    <!-- Banner Section --> <!-- Fixed: 'Banneer' → 'Banner' -->
     <section class="home" id="home">
         <div class="content">
             <h3>Fresh And <span>Organic</span> Products For You</h3>
-            <p>This website is designed by Cyber Warriors YouTube Channel so that everyone can learn in an easy way how to create a website.</p>
+            <p>This website is designed by Cyber Warriors YouTube Channel so that everyone can learn in an easy way how
+                to create a website.</p>
             <a href="#" class="btn">Shop Now</a>
         </div>
     </section>
@@ -103,21 +107,21 @@
 
         <div class="box-container">
             <div class="box">
-                <img src="feature-img-1.png" alt="">
+                <img src="feature-img-1.png">
                 <h3>Fresh and Organic</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                 <a href="#" class="btn">Read More</a>
             </div>
 
             <div class="box">
-                <img src="feature-img-2.png" alt="">
+                <img src="feature-img-2.png">
                 <h3>Fast Delivery</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                 <a href="#" class="btn">Read More</a>
             </div>
 
             <div class="box">
-                <img src="feature-img-3.png" alt="">
+                <img src="feature-img-3.png">
                 <h3>Best Quality</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                 <a href="#" class="btn">Read More</a>
@@ -126,7 +130,144 @@
     </section>
     <!-- Our Features Section -->
 
+    <!-- Our Product Section -->
+    <section class="products" id="products">
+        <h1 class="heading">our <span>products</span></h1>
+
+        <div class="swiper product-slider">
+
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="product-1.png">
+                    <h1>Fresh Orange</h1>
+                    <div class="price"> $12.99/- -15.99/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">Add To Cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="product-2.png">
+                    <h1>Fresh Orange</h1>
+                    <div class="price"> $12.99/- -15.99/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">Add To Cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="product-3.png">
+                    <h1>Fresh Orange</h1>
+                    <div class="price"> $12.99/- -15.99/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">Add To Cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="product-4.png">
+                    <h1>Fresh Orange</h1>
+                    <div class="price"> $12.99/- -15.99/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">Add To Cart</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Our Product Section part 2 -->
+
+        <div class="swiper product-slider">
+
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="product-1.png">
+                    <h1>Fresh Orange</h1>
+                    <div class="price"> $12.99/- -15.99/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">Add To Cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="product-2.png">
+                    <h1>Fresh Orange</h1>
+                    <div class="price"> $12.99/- -15.99/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">Add To Cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="product-3.png">
+                    <h1>Fresh Orange</h1>
+                    <div class="price"> $12.99/- -15.99/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">Add To Cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="product-4.png">
+                    <h1>Fresh Orange</h1>
+                    <div class="price"> $12.99/- -15.99/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="" class="btn">Add To Cart</a>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- Our Product Section -->
+
+
     <script src="script.js"></script>
+
+    <script src="https://unpkg.com/swiper@11/swiper-bundle.min.js"></script>
+
 </body>
 
 </html>

@@ -307,22 +307,22 @@ section{
     padding-bottom: 10rem;
 }
 
-.hone .content{
+.home .content{
     border: 0px solid;
     text-align: center;
     width: 60rem;
 }
 
-.hone .content h3{
+.home .content h3{
     color: var(--black);
     font-size: 3rem;
 }
 
-.hone .content h3 span{
+.home .content h3 span{
      color: var(--green);
 }
 
-.hone .content p{
+.home .content p{
     color: var(--light-color);
     font-size: 1.7rem;
     padding: 1rem 0;
@@ -372,6 +372,59 @@ section{
 }
 
 /*features*/
+
+
+
+/*Product*/
+ 
+.products .product-slider{
+    border: 0px solid;
+    padding: 1rem; 
+}
+
+.products .product-slider:first-child{
+    margin-bottom: 2rem;
+}
+
+.products .product-slider .box{
+    background: #fff;
+    border: 0px solid red;
+    border-radius: .5rem;    
+    text-align: center;
+    padding: 3rem 2rem;
+    outline-offset: -1rem;
+    outline: var(--outline);
+    box-shadow: var(--box-shadow);
+    transition: .2s linear;
+}
+
+.products .product-slider .box:hover{
+    box-shadow: 1px 1px 10px 4px var(--green);
+}
+
+.products .product-slider .box img{
+    height: 20rem;
+}
+
+.products .product-slider .box h1{
+    font-size: 2.5rem;
+    color: var(--black);
+}
+
+.products .product-slider .box .price{
+    font-size: 2rem;
+    color: var(--light-color);
+    padding: .5rem ;
+
+}
+
+.products .product-slider .box .stars i{
+     font-size: 1.7rem;
+     color: orange;
+     padding: .5rem 0;
+}
+
+/*Product*/
 
 
 
